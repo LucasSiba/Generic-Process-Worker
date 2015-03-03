@@ -127,12 +127,9 @@ gpw_run(void* run_data)
 
         fclose(fp);
         printf("success! > %s <\n", (char *)run_data);
-        // Print decrypted key?
-        // free key
         exit(1);
     }
 
 DONE:
     return;
 }
-
